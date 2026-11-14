@@ -7,6 +7,25 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ---
 
+## [0.4.2] - 2026-11-14
+
+Maintenance release with 2 changes.
+
+- 📦 build(bun.lock): add eslint, globals, @lucide/vue and nuxt to package.json and delete bun.lock `8905e44`
+  - `bun.lock`
+  - `nub.lock`
+  - `package.json`
+- 🧹 chore(.zscripts): update 5 files (+10/-6) `995205c`
+  - `.zscripts/build.sh`
+  - `.zscripts/database-runtime-build.sh`
+  - `.zscripts/mini-services-build.sh`
+  - `.zscripts/mini-services-install.sh`
+  - `.zscripts/python-runtime-build.sh`
+- 🧹 chore: remove Prisma and update docs for InsForge backend `6fc27b8`
+- 🐛 fix: update CSS and Vue components for financial dashboard `88fb5be`
+- 🚀 feat: update components, api, and utils to new version `632a4b4`
+- 🐛 fix: update ui components to conform to new design standards `c9b635b`
+
 ## [0.4.1] - 2026-10-25
 
 Maintenance release with 1 change.
